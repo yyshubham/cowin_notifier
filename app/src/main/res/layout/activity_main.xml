@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkgrey"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/co_win"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifier"
+        android:layout_marginLeft="105dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+
+
+
+    <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Search by"
+              android:textColor="@color/white"
+              android:layout_marginTop="80dp"
+              android:fontFamily="sans-serif-thin"
+              />
+
+
+    <EditText
+
+        android:id="@+id/inputpincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:hint="Pincode"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/teal_700"
+
+        android:textColorHint="@color/grey"
+        android:textSize="25dp" />
+            <Button
+                android:id="@+id/btnpincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+
+                android:textStyle="italic|bold"
+                android:fontFamily="sans-serif-thin"
+                />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Search by"
+              android:layout_marginTop="80dp"
+              android:textColor="@color/white"
+              android:fontFamily="sans-serif-thin"/>
+
+          <EditText
+              android:id="@+id/date"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:hint="State"
+              android:textColor="@color/white"
+              android:fontFamily="sans-serif-thin"
+              android:textColorHighlight="@color/teal_700"
+              android:textColorHint="@color/grey"
+
+
+              android:textSize="25dp" />
+          <EditText
+              android:id="@+id/district"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:hint="District"
+              android:textColor="@color/white"
+
+              android:textColorHighlight="@color/teal_700"
+              android:textColorHint="@color/grey"
+
+              android:fontFamily="sans-serif-thin"
+              android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="italic|bold"
+        android:fontFamily="sans-serif-thin"
+        />
+
+
+
+</LinearLayout>
